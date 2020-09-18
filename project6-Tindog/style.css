@@ -1,0 +1,266 @@
+
+/* ------------------------fontfamily-------------------------- */
+
+/* 
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+ */
+
+
+/*----------------- fontfamily-End------------------------------- */
+body{
+    font-family: 'Montserrat', sans-serif;}
+
+
+.sec1{
+    /* background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
+
+    background-color: #FF4c68;
+    min-height: 100px;
+    
+}
+
+.navbar{
+    background-color: #FF4c68;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.title{
+    color: aliceblue;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    font-size: 3.5rem;
+    
+}
+
+
+
+
+.mycontainer{
+    margin: 3% 15% 3% 15%;
+}
+
+.navbar-brand{
+    font-family: 'Ubantu', sans-serif;
+    font-size: 2.5rem;
+   font-weight: bold;
+    
+}
+
+
+
+/*----------------------- navbarEnd---------------------------- */
+
+
+
+.mybtn{
+    margin: 10px 10px;
+
+}
+.fab{
+    padding-right: 10px;
+  
+}
+
+.nav-item{
+    margin-right: 30px;
+    color: white;
+}
+
+.title-img{
+    width: 60%;
+    rotate: 25deg;
+    margin-left: 5rem;
+    padding-top: 5rem;
+    position: absolute;
+
+    right: 30%;
+}
+
+.fbox{
+   text-align: center;
+ 
+ 
+}
+.feature{
+    padding: 7% 12%;
+    position: relative;
+    background-color:white;
+}
+
+h3{
+    font-family: 'Ubantu', sans-serif;
+    font-weight: bolder;
+}
+p{
+    color: gray;
+}
+
+
+.fa-3x{
+    padding: 1.25rem;
+    color: rgba(255, 76, 76, 0.918);
+}
+
+.fa-3x:hover{
+    color: rgb(231, 42, 70);
+}
+
+
+
+/*--------------------- Testomonial--------------------------- */
+
+#testimonials{
+    text-align: center;
+    background-color: rgba(255, 76, 76, 0.918);
+   
+    color: aliceblue;
+}
+
+
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bolder;
+    margin: 0 12%;
+}
+.dog-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 5% 0;
+}
+
+#press{
+    background-color:  rgba(255, 76, 76, 0.918);
+    text-align: center;
+}
+
+.press-img{
+    width: 15%;
+    margin:0 3%;
+    padding-bottom: 3rem;
+}
+
+.carousel-item{
+    padding: 10% 20%;
+
+}
+
+
+/* ------------Prising-------------------------- */
+
+#pricing{
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.price{
+    padding:50px;
+}
+.pricing-col{
+    padding: 3% 2%;
+
+}
+
+
+/* Call For action------------------------------------ */
+
+#cta{
+    background-color:  rgba(255, 76, 76, 0.918);
+    text-align: center;
+   
+}
+
+.caction{
+     margin: 0% 15%;
+     padding: 7% 15%;
+
+}
+
+/* -----------------Footer------------------------------- */
+.my-icon{
+    text-align: center;
+    padding-bottom: 2%;
+    padding-right:2% ;
+    
+}
+
+
+
+
+
+/* 
+<li class="nav-item dropdown">
+<a
+  class="nav-link dropdown-toggle"
+  href="#"
+  id="navbarDropdown"
+  role="button"
+  data-toggle="dropdown"
+  aria-haspopup="true"
+  aria-expanded="false"
+>
+  Dropdown
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <a class="dropdown-item" href="#">Play Store</a>
+  <a class="dropdown-item" href="#">APP Store</a>
+</div>
+</li> */
+
+
+
+/* ----------------TabView--------------------------------- */
+@media (max-width:1100px){
+    .mybtn{
+        margin-bottom: 10px;
+        text-align: center;
+       
+    }
+    .myimg{
+        text-align: center;
+    }
+
+
+
+}
+
+/* -------------------at 1000px---------------------------- */
+
+@media (max-width:1000px){
+    .mybtn{
+        margin-bottom: 10px;
+        text-align: center;
+       
+    }
+    .title-img{
+        position: relative;
+        rotate: 0deg;
+        width: 50%;
+      
+    }
+
+    .my-title{
+        text-align: center;
+       padding-left: 30%;
+    }
+
+    .testimonial-text{
+        margin: 0;
+
+    }
+
+    h2{
+        margin: 0;
+       
+    }
+
+    
+
+
+
+
+}

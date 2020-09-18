@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans SC", sans-serif;
+  background-image: url(./images/Logo\ Background.png);
+}
+
+/* -----------------Desktop View--------------- */
+
+header {
+  background-image: linear-gradient(58deg, #08aeea, #2af598);
+  width: 100%;
+  position: fixed;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.container {
+  min-height: 500px;
+  max-width: 1024px;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+nav {
+  width: 1024px;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0px 5px 5px #2af598, 5px 10px 10px rgba(128, 128, 128, 0.568);
+  padding-left: 30px;
+}
+
+.navButtons {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.button {
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block;
+  padding: 5px 20px;
+  /* border: 2px solid #08b7e7; */
+  height: 30px;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(45deg, #08aeea, #2bff88, #fffb7d);
+  text-align: center;
+}
+
+.button:hover {
+  color: #087897;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+  width: 30%;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  background-image: linear-gradient(58deg, #08aeea, #2af598);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.name {
+  height: auto;
+}
+.name p {
+  color: azure;
+  font-family: "Noto Sans SC", sans-serif;
+  text-align: center;
+  padding: 0.25rem;
+}
+
+.name p::first-line {
+  font-weight: bold;
+}
+
+.hide-Desktop-only {
+  display: none;
+}
+
+.col img {
+  width: 100%;
+  height: auto;
+}
+
+
+.burgerMenu{
+  display: none;
+}
+
+
+
+footer{
+  height: 200px;
+}
+/* ------------------Desktop View Ends Here-------- */
+
+
+
+
+
+
+/*-------------------------------- Tablet View----------------------------------------------- */
+@media (max-width: 800px) {
+
+  nav{
+   
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .logo{
+    /* margin-left: 50px; */
+  }
+
+  .burgerMenu{  
+    display:block;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 30px;
+    
+  }
+  .mobNav{
+    display: none;
+  }
+
+  .navButtons {
+    display: none;
+  }
+  .button{
+    margin-bottom: 10px;
+  }
+
+  
+  .container {
+    padding-top: 145px;
+  }
+
+  .col {
+    width: 45%;
+    margin-bottom: 1.25rem;
+    display: block;
+    background-color: aqua;
+  }
+
+  .button:hover {
+    color: #087897;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .mobNav{
+    position: absolute;
+    background-image: linear-gradient(58deg, #08aeea, #2af598);
+    padding: 20px 30px;
+   margin-left: -5px;
+   
+  }
+
+
+  .mobNav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 8px;
+    text-align: center;
+    
+  }
+
+
+  .burgerMenu i{
+    color: aliceblue;
+  }
+
+
+
+
+  
+}
+
+/* --------------------------------Tablet Vie End----------------------- */
+
+/* ---------------------Mobile View-------------------------------- */
+@media (max-width: 400px) {
+
+
+  .logo{
+    margin-left: 30px;
+  }
+
+
+  header{
+    min-height: 50px;
+    align-content: center;
+    margin-bottom: 0;
+  }
+/* 
+  nav{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 0;
+  } */
+
+  .navButtons{
+   
+    display: none;
+    align-content: center;
+  }
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .col {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    background-image: linear-gradient(58deg, #08aeea, #2af598);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+  
+  }
+  .container {
+    padding-top: 145px;
+  }
+
+  .navButton{
+    display: block;
+  }
+  
+  .mobNav{
+    position: absolute;
+  }
+
+
+  .burgerMenu{
+   padding-top: 43px;
+  }
+
+
+
+
+
+
+
+
+
+
+}
+/* --------------------------Mobile View End Here------------------ */
